@@ -1,3 +1,8 @@
+// Auto direction for RTL languages
+$(function(){
+  $("p, h1, h2, h3, li, ol").attr("dir", "auto");
+});
+
 // Get Parameters from some url
 var getUrlParameter = function getUrlParameter(sPageURL) {
     var url = sPageURL.split('?');
