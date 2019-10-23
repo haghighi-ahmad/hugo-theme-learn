@@ -1,6 +1,6 @@
 /* Insert here special css for hugo theme, on top of any other imported css */
 
-/* Fix alignment for RTL languages
+/* Fix alignment for RTL languages */
 p, h1, h2, h3, li, ol {
   text-align: initial;
 }
